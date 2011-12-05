@@ -1,0 +1,12 @@
+diff -rup lohit-malayalam-2.4.4/67-lohit-malayalam.conf lohit-malayalam-2.4.4_mod/67-lohit-malayalam.conf
+--- lohit-malayalam-2.4.4/67-lohit-malayalam.conf	2009-09-21 16:14:28.000000000 +0530
++++ lohit-malayalam-2.4.4_mod/67-lohit-malayalam.conf	2010-04-16 15:26:09.000000000 +0530
+@@ -8,7 +8,7 @@
+   <test name="family">
+     <string>sans-serif</string>
+   </test>
+-  <edit name="family" mode="prepend_first" binding="same">
++  <edit name="family" mode="prepend">
+     <string>Lohit Malayalam</string>
+   </edit>
+ </match>
